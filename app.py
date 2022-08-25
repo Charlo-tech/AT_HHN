@@ -3,7 +3,7 @@ import africastalking
 import os
 
 app = Flask(__name__)
-username = ""
+username = "ubongoo"
 api_key = "387e195a1a6f397491e7f65333c3146c8ff158b5b0e0e554d7a3df339fd5c49a"
 africastalking.initialize(username, api_key)
 sms = africastalking.SMS
